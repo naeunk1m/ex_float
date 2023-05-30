@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css" />
+  </head>
+  <body>
+    <style>
+      .inner {
+        width: 800px;
+        margin: 0 auto;
+      }
+      header {
+        background: #000;
+        height: 100px;
+      }
+    </style>
+    <header>header</header>
+    <main>
+      <div class="inner">
+        <style>
+          .box1 {
+            overflow: hidden;
+            margin: 10px 0;
+          }
+          .box1 div {
+            float: left;
+            height: 200px;
+            background: #ccc;
+            width: calc(50% - 5px);
+          }
+          .box1 div:last-child {
+            position: relative;
+            float: right;
+          }
+          .box1 div .btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50px;
+            height: 50px;
+            background: #fff;
+          }
+          .box1 div .btn.prev {
+            left: 10px;
+          }
+          .box1 div .btn.next {
+            right: 10px;
+          }
+        </style>
+        <section class="box1">
+          <div>11</div>
+          <div>
+            222
+            <a href="" class="btn prev">prev</a>
+            <a href="" class="btn next">next</a>
+          </div>
+        </section>
+      </div>
+      <style>
+        .box2 {
+          height: 100px;
+          background: #000;
+        }
+      </style>
+      <section class="box2">banner</section>
+
+      <div class="inner">
+        <style>
+          .box3 {
+            margin: 10px 0;
+            padding: 10px;
+            background: #ccc;
+          }
+          .box3 ul {
+            background: #fff;
+            padding: 10px;
+            overflow: hidden;
+          }
+          .box3 ul li {
+            float: left;
+            height: 100px;
+            background: #73db9b;
+          }
+          .box3 ul li:nth-child(1) {
+            width: calc(70% - 5px);
+            margin-bottom: 10px;
+          }
+          .box3 ul li:nth-child(2) {
+            width: calc(30% - 5px);
+            margin-bottom: 10px;
+            margin-left: 10px;
+          }
+          .box3 ul li:nth-child(3) {
+            width: calc(20% - 5px);
+          }
+          .box3 ul li:nth-child(4) {
+            width: calc(80% - 5px);
+            margin-left: 10px;
+          }
+        </style>
+        <section class="box3">
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+          </ul>
+        </section>
+        <style>
+          .box4 {
+            padding: 10px;
+            background: #ccc;
+            margin-bottom: 10px;
+            overflow: hidden;
+          }
+          .box4 h2 {
+            float: left;
+            line-height: 50px;
+          }
+          .box4 .wrap {
+            float: right;
+          }
+          .box4 .wrap a {
+            float: left;
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            background: #fff;
+            text-align: center;
+            line-height: 50px;
+          }
+        </style>
+        <section class="box4">
+          <h2>공지사항</h2>
+          <div class="wrap">
+            <a href="">이전</a>
+            <a href="">다음</a>
+          </div>
+        </section>
+        <style>
+          .box5 {
+          }
+          .box5 ul {
+            overflow: hidden;
+          }
+          .box5 ul li {
+            float: left;
+            width: calc((100% - 30px) / 4);
+            margin-right: 10px;
+            margin-bottom: 10px;
+          }
+          .box5 ul li:nth-child(4n) {
+            margin-right: 0;
+          }
+          .box5 ul a {
+            display: block;
+            padding: 10px;
+            background: #73db9b;
+          }
+          .box5 ul img {
+          }
+          .box5 ul strong {
+            padding: 10px;
+            background: #fff;
+            display: block;
+            margin: 10px 0;
+          }
+          .box5 ul p {
+            padding: 10px;
+            background: #fff;
+          }
+        </style>
+        <section class="box5">
+          <ul>
+            <li>
+              <a href="">
+                <img src="./download.png" alt="" />
+                <strong>문장 강조</strong>
+                <p>내용</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./download.png" alt="" />
+                <strong>문장 강조</strong>
+                <p>내용</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./download.png" alt="" />
+                <strong>문장 강조</strong>
+                <p>내용</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./download.png" alt="" />
+                <strong>문장 강조</strong>
+                <p>내용</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./download.png" alt="" />
+                <strong>문장 강조</strong>
+                <p>내용</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./download.png" alt="" />
+                <strong>문장 강조</strong>
+                <p>내용</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./download.png" alt="" />
+                <strong>문장 강조</strong>
+                <p>내용</p>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./download.png" alt="" />
+                <strong>문장 강조</strong>
+                <p>내용</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
